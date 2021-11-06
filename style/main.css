@@ -39,3 +39,24 @@ header nav a {
 header nav a:hover {
     color: #FFF
 }
+
+.main-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../assets/this-is-us-banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    height: 650px;
+}
+
+.main-movie .description {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 40px;
+}
