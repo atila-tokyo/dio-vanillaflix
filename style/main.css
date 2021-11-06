@@ -7,7 +7,8 @@
 
 body {
     background: var(--back);
-
+    font-family: "Arial";
+    color: white;
 }
 
 * {
@@ -78,7 +79,7 @@ header nav a:hover {
     margin-right: 15px;
     font-size: 11px;
     cursor: pointer;
-    border: radius 5px;
+    border-radius: 3px;
     transition: .5s ease all;
 }
 
@@ -91,3 +92,16 @@ header nav a:hover {
     margin-right: 5px;
 }
 
+.box-movie {
+    height: 60%;
+    width: 60%;
+    display: block;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+.carousel-movies {
+    margin-top: 5px;
+}
